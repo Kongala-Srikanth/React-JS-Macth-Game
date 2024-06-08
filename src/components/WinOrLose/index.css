@@ -1,0 +1,135 @@
+.win-card-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  height: 380px;
+  width: 240px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.play-again-btn {
+  background-color: #cf60c8;
+  display: flex;
+  font-size: 15px;
+  border-radius: 15px;
+  padding: 10px;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.trophy {
+  height: 150px;
+  margin-top: 30px;
+}
+.score-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.score {
+  font-size: 25px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.reset-icon {
+  height: 20px;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 576px) {
+  .win-card-container {
+    height: 580px;
+    width: 400px;
+  }
+
+  .trophy {
+    height: 220px;
+  }
+
+  .score-text {
+    font-size: 22px;
+  }
+
+  .score {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .win-card-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+    height: 720px;
+    width: 550px;
+    background-position: center;
+  }
+
+  .trophy {
+    height: 250px;
+    margin-top: 40px;
+  }
+
+  .score-text {
+    font-size: 30px;
+  }
+
+  .play-again-btn {
+    font-size: 17px;
+    padding: 10px;
+  }
+
+  .score {
+    font-size: 35px;
+  }
+
+  .reset-icon {
+    height: 23px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .win-card-container {
+    height: 920px;
+    width: 700px;
+  }
+
+  .trophy {
+    height: 350px;
+    margin-top: 15%;
+  }
+
+  .score-text {
+    font-size: 38px;
+  }
+
+  .play-again-btn {
+    font-size: 22px;
+    padding: 10px;
+  }
+
+  .score {
+    font-size: 45px;
+  }
+
+  .reset-icon {
+    height: 25px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .win-card-container {
+    height: 820px;
+    width: 600px;
+  }
+}
